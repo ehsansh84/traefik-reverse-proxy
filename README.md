@@ -2,7 +2,7 @@
 
 ## Description
 
-Here I have a simple python flask Rest api that listest on port 5000
+Here I have a simple python flask Rest api that listens on port 5000
 I plan to run it and do a reverse proxy using Traefik.
 
 ## Step 1
