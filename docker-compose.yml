@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  flask:
+    container_name: flask
+    build: .
+    restart: unless-stopped
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.whoami.rule=Host(`ttest.shirzadi.ir`)
+
+
